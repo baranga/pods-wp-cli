@@ -1,4 +1,6 @@
 <?php
+if ( !defined( 'WP_CLI' ) ) return;
+
 /**
  * Implements PodsAPI command for WP-CLI
  */
